@@ -72,6 +72,30 @@ h3{
     text-align: center;
 }
 
+
+
+.recipe h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.recipe h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.recipe p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background: #000;
+    background: repeating-linear-gradient(90deg,#67D5D2,#67D5D2 6px,transparent 6px,transparent 12px);
+}
+
 @media (max-width : 576px){
     .hero h1{
         font-size: 40px;

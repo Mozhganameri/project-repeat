@@ -125,16 +125,21 @@ nav li a {
 .about-hero h2,p{
     text-align: center;
 }
+h1 {
+    font-size: 40px !important;
+    padding-bottom: 46px;
+  }
+  h2 {
+    font-size: 20px !important;
+  }
+  .noMargin{
+      margin: 0 !important;
+      padding: 0;
+  }
 }
 
 @media (max-width: 576px) {
-    h1 {
-        font-size: 40px;
-        padding-bottom: 46px;
-      }
-      h2 {
-        font-size: 20px;
-      }
+    
 
   .contacttext {
     font-size: 30px;

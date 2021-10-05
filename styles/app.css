@@ -117,25 +117,45 @@ nav li a {
   justify-content: space-between;
 }
 
+footer{
+    background-color: #F9F7FE;
+    background-size: cover;
+}
+
+footer ul li{
+    padding: 0 40px;
+    line-height: 50px;
+}
+footer p{
+    line-height: 50px;
+}
+
 @media (max-width: 768px) {
+
   .justifyContent , .justifyAbout {
     display: flex;
     justify-content: center;
   }
+
 .about-hero h2,p{
     text-align: center;
 }
+
 h1 {
     font-size: 40px !important;
     padding-bottom: 46px;
   }
+
   h2 {
     font-size: 20px !important;
   }
+
   .noMargin{
       margin: 0 !important;
       padding: 0;
   }
+
+
 }
 
 @media (max-width: 576px) {
